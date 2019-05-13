@@ -7,3 +7,5 @@ alias whereis='which'
 alias whence='which'
 # hard reset for git
 alias gitreset='git fetch origin; git reset --hard origin/master'
+
+
