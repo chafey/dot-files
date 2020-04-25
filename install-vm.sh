@@ -32,9 +32,5 @@ sudo apt-get --assume-yes install ubuntu-restricted-extras
 # UNINSTALL irqbalance https://github.com/konkor/cpufreq/issues/48
 sudo apt-get --assume-yes remove irqbalance
 
-# Install kvm/qemu
-sudo apt-get --assume-yes install qemu-kvm virt-manager libguestfs-tools
-sudo gpasswd libvirt -a $USER
-
 # Install gnome-shell-system-monitor-applet
 sudo apt-get --assume-yes install gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0
