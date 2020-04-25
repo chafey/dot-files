@@ -13,6 +13,11 @@ curl -L https://raw.githubusercontent.com/chafey/dot-files/master/setup-dev.sh |
 ssh-keygen
 ssh-add $HOME/.ssh/id_rsa
 
+# Setup Git
+git config --global user.email "chafey@gmail.com"
+git config --global user.name "Chris Hafey"
+ssh-add $HOME/.ssh/id_rsa
+
 # Install Docker
 sudo apt-get --assume-yes install docker.io
 sudo usermod -aG docker $USER
