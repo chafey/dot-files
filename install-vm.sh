@@ -39,3 +39,7 @@ sudo apt-get --assume-yes remove irqbalance
 
 # Install gnome-shell-system-monitor-applet
 sudo apt-get --assume-yes install gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0
+
+# Install gnome-tweak-tool
+sudo apt-get --assume-yes install gnome-tweak-tool
+
