@@ -13,7 +13,7 @@ curl -L https://raw.githubusercontent.com/chafey/dot-files/master/setup-bin.sh |
 curl -L https://raw.githubusercontent.com/chafey/dot-files/master/setup-dev.sh | bash
 
 # Create local SSH Key and register with ssh-agent
-ssh-keygen
+ssh-keygen -t rsa -N ""
 ssh-add $HOME/.ssh/id_rsa
 
 # Setup Git
@@ -26,7 +26,7 @@ sudo apt-get --assume-yes install docker.io
 sudo usermod -aG docker $USER
 
 # Install SSH Server
-sudo apt-get --assume-yes install openssl-Server
+sudo apt-get --assume-yes install openssh-server
 
 # Install neofetch
 sudo apt-get --assume-yes install neofetch
