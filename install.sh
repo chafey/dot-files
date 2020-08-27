@@ -35,7 +35,7 @@ sudo apt-get --assume-yes install neofetch
 sudo apt-get --assume-yes install ubuntu-restricted-extras
 
 # Install htop
-sudo apt-get --assume-yes install ubuntu-restricted-extras
+sudo apt-get --assume-yes install htop
 
 # UNINSTALL irqbalance https://github.com/konkor/cpufreq/issues/48
 sudo apt-get --assume-yes remove irqbalance
