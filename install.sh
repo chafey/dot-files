@@ -40,6 +40,9 @@ sudo apt-get --assume-yes install htop
 # UNINSTALL irqbalance https://github.com/konkor/cpufreq/issues/48
 sudo apt-get --assume-yes remove irqbalance
 
+# Install gnome-tweak-tool
+sudo apt-get --assume-yes install gnome-tweak-tool
+
 # Install kvm/qemu
 #sudo apt-get --assume-yes install qemu-kvm virt-manager libguestfs-tools
 #sudo gpasswd libvirt -a $USER
