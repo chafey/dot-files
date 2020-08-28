@@ -35,3 +35,6 @@ curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-docker
 * Zoom
 * gparted
 * Google Chrome
+
+## Airtop3 
+* Workaround for rear audio not working: sudo kernelstub -a snd_hda_intel.dmic_detect=0
