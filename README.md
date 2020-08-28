@@ -38,3 +38,4 @@ curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-docker
 
 ## Airtop3 
 * Workaround for rear audio not working: sudo kernelstub -a snd_hda_intel.dmic_detect=0
+* Workaround for not resuming from sleep: sudo kernelstub -a mem_sleep_default=deep
