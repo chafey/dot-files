@@ -26,16 +26,26 @@ curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-docker
 
 ## Applications to install
 
-* Visual Studio Code
+* Visual Studio Code (deb)
   * Remote Containers Extension
-* Slack
-* Discord
-* Element
-* Spotify
-* Zoom
-* gparted
+* Slack (deb)
+* Discord (deb)
+* Element (flatpak)
+* Spotify (deb)
+* Zoom (flatpak)
+* gparted (deb)
 * Google Chrome
+* Virtual Box (deb)
+* DejaDup Backups (flatpak)
 
-## Airtop3 
-* Workaround for rear audio not working: sudo kernelstub -a snd_hda_intel.dmic_detect=0
+## MintBox3 / Airtop3 Specific
+* http://fit-pc.com/wiki/index.php?title=Airtop:_Installing_Linux_Mint_20
 * Workaround for not resuming from sleep: sudo kernelstub -a mem_sleep_default=deep
+
+## Gnome Extensions
+
+* Draw On Your Screen
+* CPU Power Manager
+
+## MintBox 3 Specific
+
