@@ -23,6 +23,8 @@ curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-docker
 * Settings->Mouse and Touchpad->Natural Scrolling: On
 * Settings->Displays->Scale: 200%
 * Tweaks->General->Animations: Off
+* FireFox->about:config->mousewheel.acceleration->60
+* FireFox->about:config->mousewheel.acceleration.start->1
 
 ## Applications to install
 
