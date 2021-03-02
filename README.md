@@ -32,7 +32,6 @@ curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-docker
   * Remote Containers Extension
 * Slack (deb)
 * Discord (deb)
-* Element (flatpak)
 * Spotify (deb)
 * Zoom (flatpak)
 * gparted (deb)
@@ -40,14 +39,15 @@ curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-docker
 * Virtual Box (deb)
 * DejaDup Backups (flatpak)
 
-## MintBox3 / Airtop3 Specific
-* http://fit-pc.com/wiki/index.php?title=Airtop:_Installing_Linux_Mint_20
-* Workaround for not resuming from sleep: sudo kernelstub -a mem_sleep_default=deep
 
 ## Gnome Extensions
 
 * Draw On Your Screen
-* CPU Power Manager
+* Screenshot Tool
+* Vitals
 
-## MintBox 3 Specific
 
+## MintBox3 / Airtop3 Specific
+
+* http://fit-pc.com/wiki/index.php?title=Airtop:_Installing_Linux_Mint_20
+* Workaround for not resuming from sleep: sudo kernelstub -a mem_sleep_default=deep
