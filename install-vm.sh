@@ -13,7 +13,7 @@ curl -L https://raw.githubusercontent.com/chafey/dot-files/master/setup-bin.sh |
 curl -L https://raw.githubusercontent.com/chafey/dot-files/master/setup-dev.sh | bash
 
 # Create local SSH Key and register with ssh-agent
-ssh-keygen
+yes '' | ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa
 ssh-add $HOME/.ssh/id_rsa
 
 # Setup Git

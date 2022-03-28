@@ -1,19 +1,24 @@
-## My Personal Configuration for Linux Systems
+## My Personal Configuration for Linux and Mac OS X Systems
 
 This repository includes scripts and configuration files for setting up
 new systems, virtual machines and docker containers.
 
-## Metal
+## Linux Metal
 ```bash
-curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install.sh | bash
+curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-linux.sh | bash
 ```
 
-## VM
+## MacOS X Metal
+```bash
+curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-mac.sh | bash
+```
+
+## Linux VM
 ```bash
 curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-vm.sh | bash
 ```
 
-## Docker Container
+## Linux Docker Container
 ```bash
 curl -L https://raw.githubusercontent.com/chafey/dot-files/master/install-docker.sh | bash
 ```

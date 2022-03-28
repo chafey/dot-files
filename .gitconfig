@@ -20,7 +20,6 @@
     changed = green
     untracked = red
 
-
 [user]
 	name = Chris Hafey
 	email = chafey@gmail.com
