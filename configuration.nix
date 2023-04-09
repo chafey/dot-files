@@ -15,7 +15,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.loader.efi.efiSysMountPoint = "/boot/efi";
   boot.kernelPackages = pkgs.linuxPackages_latest;
-  boot.kernelParams = ["amd_pstate=passive"];
+  boot.kernelParams = ["amd_pstate=passive" "silent" "splash"];
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -54,6 +54,7 @@
   services.xserver.desktopManager.gnome.enable = true;
   #services.xserver.displayManager.lightdm.enable = true;
   services.xserver.displayManager.gdm.enable = true;
+  services.xserver.excludePackages = [ pkgs.xterm ];
 
   # Disable the GNOME3/GDM auto-suspend feature that cannot be disabled in GUI!
   # If no user is logged in, the machine will power down after 20 minutes.
@@ -86,6 +87,30 @@
     stress
     vscode
     neofetch
+    alacritty
+  ];
+
+
+
+  environment.gnome.excludePackages = with pkgs.gnome; [
+    baobab      # disk usage analyzer
+    cheese      # photo booth
+    eog         # image viewer
+    epiphany    # web browser
+    gedit       # text editor
+    simple-scan # document scanner
+    totem       # video player
+    yelp        # help viewer
+    evince      # document viewer
+    file-roller # archive manager
+    geary       # email client
+    seahorse    # password manager
+
+    # these should be self explanatory
+    gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-contacts
+    gnome-font-viewer gnome-logs gnome-maps gnome-music gnome-screenshot
+    gnome-system-monitor gnome-weather gnome-disk-utility pkgs.gnome-connections
+    pkgs.gnome-tour pkgs.gnome-text-editor
   ];
 
   virtualisation.docker.enable = true; 
